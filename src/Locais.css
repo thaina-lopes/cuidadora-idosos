@@ -92,4 +92,26 @@ h3 {
   .titulo_locais {
     font-size: 28px;
   }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .titulo_locais {
+    font-size: 25px;
+  }
+  h3 {
+    padding: 15px 15px;
+    font-size: 22px;
+  }
+  .locais_atendimento {
+    padding: 20px 35px;
+  }
+  .img_locais {
+    height: 60px;
+  }
+  p {
+    font-size: 18px;
+  }
 }

@@ -75,3 +75,8 @@
     line-height: 2.5;
   }
 }
+@media (max-width: 360px) {
+  .titulo_servicos {
+    font-size: 25px;
+  }
+}

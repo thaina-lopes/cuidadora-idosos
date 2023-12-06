@@ -101,3 +101,12 @@
     padding: 0 30px;
   }
 }
+
+@media (max-width: 360px) {
+  .sobreMim {
+    height: 850px;
+  }
+  .titulo_SobreMim {
+    font-size: 25px;
+  }
+}
