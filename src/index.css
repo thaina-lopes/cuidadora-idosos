@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #fff;
+  --verde: #60b6b7;
+  --verde-claro: #99d9d9;
+}
+
+body {
+  font-family: "Poppins";
+}

@@ -1,0 +1,39 @@
+.contato {
+  height: 400px;
+  background-image: url("./img/img_contato.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_contato {
+  color: var(--verde);
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.botaowhats {
+  color: var(--verde);
+  font-weight: 400;
+  font-size: 26px;
+  margin: 40px 0 30px;
+  border-bottom: 2px solid var(--verde);
+}
+
+@media (max-width: 780px) {
+  .titulo_contato {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .titulo_contato {
+    font-size: 30px;
+  }
+  .botaowhats {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,104 @@
+.cabecalho {
+  background-size: cover;
+  background-position: top;
+  background-image: url("./img/img_cabecalho.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo {
+  width: 70px;
+  margin: 15px 15px 15px 40px;
+}
+
+nav {
+  color: var(--branco);
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 22px;
+  margin: 0 30px;
+}
+
+.whats {
+  text-decoration: none;
+  color: var(--branco);
+  background-color: #25d366;
+  padding: 6px 16px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.numero {
+  margin-left: 8px;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 60px;
+    margin: 15px 15px 15px 20px;
+  }
+
+  nav {
+    margin-right: 10px;
+  }
+
+  a {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .whats {
+    padding: 6px 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  .logo {
+    width: 60px;
+    margin: 15px 0px 15px 15px;
+  }
+
+  .whats {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+  }
+  .numero {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .cabecalho {
+    height: 70px;
+  }
+
+  a {
+    font-size: 18px;
+    margin: 0 15px;
+  }
+  .logo {
+    width: 50px;
+    margin: 15px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .whats {
+    display: none;
+  }
+}
