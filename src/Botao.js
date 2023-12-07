@@ -9,7 +9,7 @@ export default function Botao() {
       target="_blank"
     >
       <FaWhatsapp size={35} />
-      <span className="numero-whats">(51) 99669 5151</span>
+      <span className="numero-whats">Entrar em contato</span>
     </a>
   );
 }

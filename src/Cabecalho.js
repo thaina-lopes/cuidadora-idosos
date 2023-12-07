@@ -17,7 +17,7 @@ export default function Cabecalho() {
             target="_blank"
           >
             <FaWhatsapp size={35} />
-            <span className="numero">(51) 99669 5151</span>
+            <span class="balao">Whatsapp</span>
           </a>
         </nav>
       </div>
